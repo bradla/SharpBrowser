@@ -31,12 +31,21 @@
     <EmbeddedResource Include="Resources\sharpbrowser.ico" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CefSharp.Common" Version="106.0.260" />
-    <PackageReference Include="CefSharp.Common.NETCore" Version="106.0.260" />
-    <PackageReference Include="CefSharp.WinForms.NETCore" Version="106.0.260" />
+    <PackageReference Include="CefSharp.Common" Version="108.4.130" />
+    <PackageReference Include="CefSharp.Common.NETCore" Version="108.4.130" />
+    <PackageReference Include="CefSharp.WinForms.NETCore" Version="108.4.130" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Net" />
     <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="chromiumembeddedframework.runtime.win-arm64" Version="108.4.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="chromiumembeddedframework.runtime.win-x64" Version="108.4.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="chromiumembeddedframework.runtime.win-x86" Version="108.4.13" />
   </ItemGroup>
 </Project>

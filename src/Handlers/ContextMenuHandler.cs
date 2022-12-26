@@ -166,7 +166,7 @@ namespace SharpBrowser {
 					//string path = Path.GetFileName(sfd.FileName);
 					browser.PrintToPdfAsync(sfd.FileName, new PdfPrintSettings()
 					{
-						SelectionOnly = false,
+						//SelectionOnly = false,
 						BackgroundsEnabled = true
 					});
 				}
